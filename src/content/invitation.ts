@@ -101,6 +101,18 @@ export const invitation = {
       mapsQuery: "Senate Hall, Ramada by Wyndham Jalandhar City Centre",
       mapsUrl: "https://maps.app.goo.gl/gNaRNwETGwFQEaX87?g_st=ic",
     },
+    {
+      id: "wedding",
+      name: "Wedding",
+      date: "21 November 2026",
+      time: "8:00 PM onwards",
+      venue: "Arabia hall, the Elysium Grand",
+      address: "Arabia hall, the Elysium Grand",
+      description: "The sacred nuptials and joyous wedding celebrations as two souls unite for a lifetime of love and joy.",
+      dateISO: "2026-11-21T20:00:00+05:30",
+      mapsQuery: "The Elysium Grand",
+      mapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Elysium+Grand",
+    },
   ] as EventItem[],
   /** For backwards compatibility with timeline component if needed */
   chapters: [
@@ -115,6 +127,12 @@ export const invitation = {
       title: "Sehra Bandi",
       when: "21 November 2026 · 5:30 PM onwards",
       text: "Senate Hall, Ramada by Wyndham Jalandhar City Centre — Tying the ceremonial sehra blessed by elders and loved ones.",
+    },
+    {
+      no: "III",
+      title: "Wedding",
+      when: "21 November 2026 · 8:00 PM onwards",
+      text: "Arabia hall, the Elysium Grand — Auspicious wedding ceremony and celebration.",
     },
   ],
   note: {

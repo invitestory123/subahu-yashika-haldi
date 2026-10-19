@@ -222,10 +222,10 @@ const htmlContent = `<!DOCTYPE html>
     /* Celebrations Row */
     .events-grid {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 20px;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
       width: 100%;
-      max-width: 780px;
+      max-width: 980px;
       margin-top: 6px;
     }
 
@@ -347,6 +347,11 @@ const htmlContent = `<!DOCTYPE html>
         <div class="event-card-name">Sehra Bandi</div>
         <div class="event-card-datetime">21 Nov · 5:30 PM</div>
         <div class="event-card-venue">Senate Hall, Ramada City Centre</div>
+      </div>
+      <div class="event-card">
+        <div class="event-card-name">Wedding</div>
+        <div class="event-card-datetime">21 Nov · 8:00 PM</div>
+        <div class="event-card-venue">Arabia hall, The Elysium Grand</div>
       </div>
     </div>
 
