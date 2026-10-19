@@ -90,18 +90,6 @@ export const invitation = {
       mapsUrl: "https://maps.app.goo.gl/jN5kimUfaLUD6weu9?g_st=ic",
     },
     {
-      id: "hathbhara",
-      name: "Hathbhara",
-      date: "21 November 2026",
-      time: "10:00 AM onwards",
-      venue: "Shree Baba Gajja Ji Tomri",
-      address: "Shree Baba Gajja Ji Tomri",
-      description: "Auspicious morning ceremony invoking the sacred blessings of Shree Baba Gajja Ji.",
-      dateISO: "2026-11-21T10:00:00+05:30",
-      mapsQuery: "Shree baba Gajja ji Tomri",
-      mapsUrl: "https://maps.app.goo.gl/dfYFxcrzvtyUmpEq6?g_st=ic",
-    },
-    {
       id: "sehrabandi",
       name: "Sehra Bandi",
       date: "21 November 2026",
@@ -124,12 +112,6 @@ export const invitation = {
     },
     {
       no: "II",
-      title: "Hathbhara",
-      when: "21 November 2026 · 10:00 AM onwards",
-      text: "Shree Baba Gajja Ji Tomri — Auspicious rituals and sacred blessings for a blissful future.",
-    },
-    {
-      no: "III",
       title: "Sehra Bandi",
       when: "21 November 2026 · 5:30 PM onwards",
       text: "Senate Hall, Ramada by Wyndham Jalandhar City Centre — Tying the ceremonial sehra blessed by elders and loved ones.",
