@@ -39,7 +39,7 @@ export function Timeline() {
       <div className="mx-auto max-w-3xl">
         <SectionTitle
           eyebrow="Itinerary & Auspicious Ceremonies"
-          title="Haldi Celebrations"
+          title="Wedding Celebrations"
           note="Join us in every step of this joyous celebration"
         />
         <Ornament className="mt-8" />

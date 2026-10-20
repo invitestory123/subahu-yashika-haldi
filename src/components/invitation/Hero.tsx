@@ -200,7 +200,7 @@ export function Hero() {
           whileTap={{ scale: 0.97 }}
           className="glass-plate shimmer mt-6 rounded-full px-8 py-3.5 font-sans text-xs sm:text-sm tracking-[0.3em] uppercase border-2 border-[var(--gold-deep)] shadow-md"
         >
-          <span className="text-primary font-bold">Haldi Celebrations</span>
+          <span className="text-primary font-bold">Wedding Celebrations</span>
         </motion.a>
 
         <motion.div

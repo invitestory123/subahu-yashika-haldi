@@ -11,15 +11,15 @@ import { Timeline } from "@/components/invitation/Timeline";
 import { Footer } from "@/components/invitation/Footer";
 import { invitation } from "@/content/invitation";
 
-const title = `${invitation.couple.groom} & ${invitation.couple.bride} #SYforever — Haldi Ceremony Invitation`;
-const description = `With Heavenly Blessings of Late Smt. Mahimawanti Jain & Late Sh. Dev Raj Jain & Smt. Usha Jain & Sh. Surinder Kumar Jain, cordially invite you to celebrate the Haldi ceremony of Subahu & Yashika on Friday, 20 November 2026 at De javu manor, Khambra. #SYforever`;
+const title = `${invitation.couple.title} ${invitation.couple.hashtag} — Wedding Invitation`;
+const description = `With Heavenly Blessings of Late Smt. Mahimawanti Jain & Late Sh. Dev Raj Jain & Smt. Usha Jain & Sh. Surinder Kumar Jain, cordially invite you to celebrate the wedding celebrations of Subahu & Yashika at The Elysium Grand. #SYforever`;
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title },
       { name: "description", content: description },
-      { property: "og:site_name", content: `${invitation.couple.title} Haldi Ceremony` },
+      { property: "og:site_name", content: `${invitation.couple.title} Wedding Invitation` },
       { property: "og:title", content: title },
       { property: "og:description", content: description },
       { property: "og:type", content: "website" },
@@ -28,7 +28,7 @@ export const Route = createFileRoute("/")({
       { property: "og:image:type", content: "image/png" },
       { property: "og:image:width", content: "1200" },
       { property: "og:image:height", content: "630" },
-      { property: "og:image:alt", content: `${invitation.couple.title} #SYforever Haldi Ceremony Invitation Card` },
+      { property: "og:image:alt", content: `${invitation.couple.title} #SYforever Wedding Invitation Card` },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: title },
       { name: "twitter:description", content: description },

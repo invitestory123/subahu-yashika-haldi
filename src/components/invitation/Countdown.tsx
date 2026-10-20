@@ -66,7 +66,7 @@ export function Countdown() {
       <div className="relative mx-auto max-w-3xl">
         <SectionTitle
           eyebrow="Until We Say Forever"
-          title="Counting Down to Haldi Ceremony"
+          title="Counting Down to Our Wedding"
         />
         <div className="mt-10 grid grid-cols-4 gap-2 sm:gap-4 max-w-xl mx-auto w-full">
           <Unit value={left.days} label="Days" />

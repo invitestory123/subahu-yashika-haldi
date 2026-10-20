@@ -18,7 +18,7 @@ function buildIcs() {
     `DTSTAMP:${stamp(new Date())}`,
     `DTSTART:${stamp(start)}`,
     `DTEND:${stamp(end)}`,
-    `SUMMARY:${invitation.couple.groom} Weds ${invitation.couple.bride} — Haldi Ceremony`,
+    `SUMMARY:${invitation.couple.groom} Weds ${invitation.couple.bride} — Wedding`,
     `LOCATION:${invitation.venue.name}, ${invitation.venue.address}`,
     "DESCRIPTION:No Gifts, No Shagun, Only Blessings. With Love and Regards, Jain Family",
     "END:VEVENT",
@@ -53,7 +53,7 @@ export function Details() {
         <Reveal delay={0.1} className="mt-10 flex flex-wrap justify-center gap-4">
           <motion.a
             href={buildIcs()}
-            download={`${invitation.couple.groom.toLowerCase()}-${invitation.couple.bride.toLowerCase()}-haldi.ics`}
+            download={`${invitation.couple.groom.toLowerCase()}-${invitation.couple.bride.toLowerCase()}-wedding.ics`}
             whileHover={{ scale: 1.04 }}
             whileTap={{ scale: 0.97 }}
             className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 font-sans text-[0.66rem] tracking-[0.24em] text-primary-foreground uppercase shadow-md"

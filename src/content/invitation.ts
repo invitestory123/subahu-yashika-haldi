@@ -60,15 +60,15 @@ export const invitation = {
     sanskrit: "मंगलम् भगवान वीरो, मंगलं गौतमो गणी।\nमंगलम् कुन्दकुन्दार्यो, जैन धर्मोऽस्तु मंगलम्॥",
     meaning: "Auspicious is Bhagwan Mahavira, auspicious is Ganadhara Gautama. Auspicious is Acharya Kundakunda, and auspicious is the Jain Dharma.",
   },
-  /** ISO date-time of the Haldi ceremony, used by the countdown and calendar file. */
-  dateISO: "2026-11-20T12:00:00+05:30",
-  dateLabel: "Friday, 20 November 2026",
-  timeLabel: "Starts from 12:00 PM onwards",
+  /** ISO date-time of the Wedding ceremony, used by the countdown and calendar file. */
+  dateISO: "2026-11-21T20:00:00+05:30",
+  dateLabel: "Saturday, 21 November 2026",
+  timeLabel: "8:00 PM onwards",
   venue: {
-    name: "De javu manor, Khambra",
-    address: "De javu manor, Khambra",
-    mapsQuery: "DE JAVU MANOR Khambra",
-    mapsUrl: "https://maps.app.goo.gl/jN5kimUfaLUD6weu9?g_st=ic",
+    name: "The Elysium Grand",
+    address: "Arabia hall, the Elysium Grand",
+    mapsQuery: "The Elysium Grand",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Elysium+Grand",
   },
   dressCode: "Traditional & Festive Indian Elegance",
   hero: {
